@@ -1,5 +1,3 @@
-# Portfolio
-
 <h1>Olá, tudo bom? espero que sim!</h1>
 
 <span>Esse daqui é um pouco sobre mim e como está se iniciando minha carreira
