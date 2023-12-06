@@ -3,4 +3,4 @@
 <span>Esse daqui é um pouco sobre mim e como está se iniciando minha carreira
 na área como desenvolverdor web.</span>
 
-<a href="https://portfolio-smoky-tau-30.vercel.app" target="_blank">Aqui está o link de acesso</a>
+<a href="https://portfolio-rodrigos-projects-b4a7a19a.vercel.app" target="_blank">Aqui está o link de acesso</a>
