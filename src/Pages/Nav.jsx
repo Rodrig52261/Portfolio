@@ -22,7 +22,7 @@ const Nav = () =>  {
 ];
 
   return (
-    <div className='flex items-center justify-around bg-teal-600 w-full fixed  shadow-black shadow h-20 '>
+    <div className='flex items-center justify-around bg-teal-600 w-full fixed z-50 shadow-black shadow h-20 '>
       <div>
         <h1 className='text-white text-3xl capitalize'>portifólio</h1>
       </div>
