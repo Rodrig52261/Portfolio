@@ -33,7 +33,7 @@ const Projetos = () => {
   return (
     <div
     name='projetos' 
-    className='w-full h-screen bg-slate-950 text-white'
+    className='w-full h-full bg-slate-950 text-white'
     >
       <div 
       className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full'
@@ -44,7 +44,7 @@ const Projetos = () => {
         </div>
 
         <div 
-        className='w-full grid grid-cols-2 md:grid-cols-2 gap-6 py-8 px-12 sm:px-0'
+        className='w-full grid grid-cols-1 md:grid-cols-2 gap-6 py-8 px-12 sm:px-0'
         >
           {projects.map(({ id, src, title, sub, link }) => (
             <div

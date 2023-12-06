@@ -30,7 +30,7 @@ function Home() {
       </span>
         <div className="my-4">
               <div className="flex items-center justify-between">
-                <span className='w-96 text-2xl text-justify'>Busco um estágio e estou cursando Sistema da Informação pela Unoeste.
+                <span className='w-96 text-2xl text-left'>Busco um estágio e estou cursando Sistema da Informação pela Unoeste.
                 Procuro constantemente expandir meu conhecimento no campo da tecnologia 
                 me mantendo sempre atualizado e estudando alguma stack para me aprofundar
                 na área de programação e me desenvolver profissionalmente.
