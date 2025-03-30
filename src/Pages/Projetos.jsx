@@ -3,6 +3,8 @@ import React from 'react'
 import gofilmes from '../assets/filme/go-filmes.png'
 import credja from '../assets/credja/credja.png'
 import calculadora from '../assets/calculadora/calculadora.png'
+import NodejsMongodb from '../assets/nodejs-mongodb/node-mongo.png'
+import pagegames from '../assets/page-games/page-games.png'
 
 const Projetos = () => {
 
@@ -23,11 +25,18 @@ const Projetos = () => {
     },
     {
       id: 3,
-      link: 'https://github.com/Rodrig52261/calculadora-imc',
-      src: calculadora,
-      title: 'calculadora-imc',
-      sub: 'html, css, javascript',
-    }
+      link: 'https://github.com/Rodrig52261/Nodejs-mongodb',
+      src: NodejsMongodb,
+      title: 'Nodejs-Mongodb',
+      sub: 'html, css, node.js, express, nodemon, mongodb, handlebars',
+    },
+    {
+      id: 4,
+      link: 'https://github.com/Rodrig52261/pag-games?tab=readme-ov-file',
+      src: pagegames,
+      title: 'Page-Games',
+      sub: 'html, css',
+    },
   ]
 
   return (

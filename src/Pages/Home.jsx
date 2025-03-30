@@ -1,7 +1,7 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import { FaInstagram, FaGithub, FaLinkedinIn  } from 'react-icons/fa'
-import foto from '../assets/img/foto.jpg'
+import foto from '../assets/img/foto.png'
 
 
 function Home() {
@@ -19,8 +19,15 @@ function Home() {
           1000,
           'Dev React.js',
           1000,
+          'Dev Node.js',
+          1000,
+          'Dev MySql',
+          1000,
+          'Dev MongoDB',
+          1000,
           'Dev Tailwind',
           1000
+          
         ]}
         wrapper="span"
         speed={30}
@@ -30,10 +37,12 @@ function Home() {
       </span>
         <div className="my-4">
               <div className="flex items-center justify-between">
-                <span className='w-96 text-2xl text-left'>Busco um estágio e estou cursando Sistema da Informação pela Unoeste.
-                Procuro constantemente expandir meu conhecimento no campo da tecnologia 
-                me mantendo sempre atualizado e estudando alguma stack para me aprofundar
-                na área de programação e me desenvolver profissionalmente.
+                <span className='w-96 text-2xl text-left'>Busco minha primeira
+                oportunidade no mercado de trabalho e estou cursando Engenharia 
+                de software pela Unicv. Procuro constantemente expandir meu 
+                conhecimento no campo da tecnologia me mantendo sempre atualizado e
+                estudando alguma stack para me aprofundar na área de programação
+                e me desenvolver profissionalmente.
                 <div className="flex gap-5 mt-10">
                   <a href="https://github.com/Rodrig52261" target='_blank' className='text-5xl w-16 h-16 rounded-xl flex justify-center items-center bg-black text-white hover:scale-90 transition-all duration-200'>
                     <FaGithub />
@@ -50,7 +59,8 @@ function Home() {
                 </span>
                 <div className="">
                   <img src={foto} alt="perfil" 
-                  className='rounded-full w-[400px] h-[400px] hidden md:block'
+                  className='w-96 h-96 rounded-full border-4 border-black border-gray-500 shadow-lg object-cover' 
+                  style={{ width: '300px', height: '300px' }} 
                   />
                 </div>
               </div>

@@ -4,6 +4,9 @@ import html from '../assets/img/html.png'
 import css from '../assets/img/css.png'
 import js from '../assets/img/js.png'
 import react from '../assets/img/react.png'
+import node from '../assets/img/node.svg'
+import mongodb from '../assets/img/mongodb.svg'
+import mysql from '../assets/img/mysql.svg'
 
 const Skills = () => {
 
@@ -34,11 +37,29 @@ const Skills = () => {
         },
         {
             id: 5,
+            src: node,
+            title: 'Node.js',
+            style: 'shadow-cyan-600'
+        },
+        {
+            id: 6,
+            src: mongodb,
+            title: 'MongoDB',
+            style: 'shadow-cyan-600'
+        },
+        {
+            id: 7,
+            src: mysql,
+            title: 'MySQL',
+            style: 'shadow-cyan-600'
+        },
+        {
+            id: 8,
             src: Tailwind,
             title: 'Tailwind',
             style: 'shadow-cyan-600'
         },
-    ] 
+] 
 
   return (
     <div 
