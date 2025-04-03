@@ -2,9 +2,9 @@ import React from 'react'
 
 import gofilmes from '../assets/filme/go-filmes.png'
 import credja from '../assets/credja/credja.png'
-import calculadora from '../assets/calculadora/calculadora.png'
 import NodejsMongodb from '../assets/nodejs-mongodb/node-mongo.png'
 import pagegames from '../assets/page-games/page-games.png'
+import Clima_API from '../assets/Clima_API/Clima_API.png'
 
 const Projetos = () => {
 
@@ -36,6 +36,13 @@ const Projetos = () => {
       src: pagegames,
       title: 'Page-Games',
       sub: 'html, css',
+    },
+    {
+      id: 5,
+      link: 'https://github.com/Rodrig52261/Clima_API',
+      src: Clima_API,
+      title: 'Clima_API',
+      sub: 'html, css, react, react-router, api, axios',
     },
   ]
 
